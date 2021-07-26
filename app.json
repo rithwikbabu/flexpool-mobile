@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Flexpool",
+    "slug": "Flexpool",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/apple-touch-icon.png",
+    "splash": {
+      "image": "./assets/images/darklogo.png",
+      "resizeMode": "center",
+      "backgroundColor": "#151519"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "userInterfaceStyle": "automatic"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/android-chrome-192x192.png",
+        "backgroundColor": "#FFF"
+      }
+    }
+  }
+}
